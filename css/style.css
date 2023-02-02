@@ -56,7 +56,7 @@ img {
 .member {
      background-color: var(--bg_badge);
      float: left;
-     width: calc(100% / 3 - (2rem));
+     width: calc(100% / 3 - 3rem) ;
      margin: 1rem;
      margin-bottom: 2rem;
      min-width: 12rem;
