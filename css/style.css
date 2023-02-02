@@ -31,12 +31,12 @@ img {
 /* //general */
 
 /* corpo pagina */
-.container1 {
+.container {
      max-width: 1200px;
      margin: 0 auto;
 }
 
-.container1, .badge-sec::after {
+.container, .badge-sec::after {
      content: "";
      display: table;
      clear: both;
