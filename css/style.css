@@ -11,10 +11,12 @@
      --bg_badge: black;
      --h1_color: #fb377d;
      --text: white;
+     --email-color: #60ddfd; 
      font-size: 16px;
 }
 
 h1 {
+     font-size: 40px;
      color: #fb377d;
      text-align: center;
      padding-top: 2rem;
@@ -58,8 +60,11 @@ img {
      margin: 1rem;
      margin-bottom: 2rem;
      min-width: 11rem;
+     box-shadow:
+     .1rem .1rem  .4rem rgb(192, 192, 192),
+     .1rem .1rem  .4rem rgb(190, 190, 190),
+     .1rem .1rem  .4rem rgb(180, 180, 180);
 }
-
 /* //section badge team */
 
 /* section dati team */
@@ -82,7 +87,7 @@ img {
 }
 
 .dati>p:nth-child(3) {
-     color: cornflowerblue;
+     color: var(--email-color);
 }
 
 /*// section dati team */
